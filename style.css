@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logos {
+    display: flex;
+    margin: 0px;
+    padding-left: 10px;
+    justify-content: flex-start;
+    column-gap: 28px;
+    cursor: pointer;
+}
+.search input{
+    border-radius: 20px;
+    height: 32px;
+    width: 283px;
+    border-color: blue;
+    box-shadow: inset 4px 7px 7px rgba(0, 0, 0, 0.25);
+}
+.Sicon{
+    top: 4px;
+    left: 10px;
+}
+.navigation a{
+    color: grey;
+    text-decoration: none;
+    font-size:  1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+  color: blue;
+}
+.marketlogo img{
+  height: 30px;
+}
+.marketlogo{
+  position: relative;
+  right: 30px;
+}
+.home{
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: #F5F8FB;
+  color: rgb(9, 5, 137);
+  font-size: 20px;
+}
+.home p:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.home p{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.main img{
+  height: 100%;
+  width: 100%;
+  padding: 0px 36px;
+  transition: 0.9s ease;
+}
+.main img:hover{
+  opacity: 0.8;
+}
+.products{
+  height: 500px;
+  width: 100%;
+  background-color: #F5F8FB;
+  color: rgb(9, 5, 137);
+}
+.products h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+.products h2::after{
+  content: "";
+  height: 4px;
+  border-radius: 2px;
+  width: 100px;
+  display: block;
+  background-color: yellow;
+  position: absolute;
+  top: calc(100%, +5px);
+}
+.offers{
+  display: flex;  
+  padding: 30px;
+  justify-content: center;
+}
+.offers .border{
+  border: 1px solid ;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 20px;
+  color: transparent;
+  inset: 0px;
+}
+.b1{
+    background-size: contain;
+    background-image: url(offers/arial.jpg);
+    background-repeat: no-repeat;
+}
+.b2{
+    background-size: contain;
+    background-image: url(offers/carte\ noire.jpg);
+    background-repeat: no-repeat;
+}
+.b3{
+    background-size: contain;
+    background-image: url(offers/dari.jpg);
+    background-repeat: no-repeat;
+}
+.b4{
+    background-size: contain;
+    background-image: url(offers/fromage.jpg);
+    background-repeat: no-repeat;
+}
+.all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer{
+    background-color: #005DAA;
+    color: #fff;
+    padding: 14px 22px 14px 23px;
+    text-transform: uppercase;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600px;
+    height: 50px;
+    border-radius: 20px;
+    width: 400px;
+    transition: 0.7s ease;
+    border: none;
+}
+.offer:hover{
+  opacity: 0.8;
+
+}
+.offer a{
+  text-decoration: none;
+  color: white;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.Card img{
+  margin-top: 30px;
+  width: 100%;
+  transition: 0.9s ease;
+}
+.Card img:hover{
+  opacity: 0.8;
+}
+.app{
+  margin-top: 40px;
+  max-width: 100%;
+  transition: 0.9 ease;
+}
+.app:hover{
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+.find{
+  background-color: #F5F8FB;
+  width: 100%;
+  height: 70px;
+  color: #1e008c;
+  font-size: 20px;
+}
+.find p{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.find p:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
