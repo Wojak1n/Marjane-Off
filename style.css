@@ -177,10 +177,10 @@ header {
 }
 .app{
   margin-top: 40px;
-  transition: 0.9 ease;
+  transition: 0.9s ease;
 }
 .app:hover{
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .find{
   background-color: #F5F8FB;
@@ -217,5 +217,79 @@ header {
   position: absolute;
   top: calc(100%, +5px);
 }
+.Market{
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  max-height: ;
+}
+.Market img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.16);
+}
+.Market a{
+  margin-top: 20px;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #085da8;
+}
+.mieux{
+  margin-top: 35px;
+  color: #005DAA;
+  font-size: 20px;
+  text-decoration: none;
+}
+.info{
+  margin-top: 40px;
+  background-color: #e9f0ff;
+  height: 400px;
+  width: 100%;
+  padding: 60px 30px 27px;
+  display: flex;
+  justify-content: space-around;
 
+}
+.info a{
+  text-decoration: none;
+  color: #0b3787;;
+}
+.info ul li {
+  list-style-type: disc;
+  color: #0b3787;;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  line-height: 46px;
+  margin-left: -33px;
+  font-weight: 700;
+}
+.store{
+  padding: 10px;
+  margin-top: 50px;
+  display: inline;
+  transition: 0.9s ease;
+}
+.store img:hover{
+  opacity: 0.8;
+}
+.social {
+  margin-top: 30px;
+  display: inline;
+  display: flex;
+  justify-content: space-around;
 
+}
+.social p{
+  margin-top: 10px;
+  color: blue;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
