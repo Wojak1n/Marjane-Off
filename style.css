@@ -106,7 +106,7 @@ header {
   justify-content: center;
 }
 .offers .border{
-  border: 1px solid ;
+  border: 1px solid;
   height: 300px;
   width: 300px;
   margin: 10px;
@@ -177,21 +177,11 @@ header {
 }
 .app{
   margin-top: 40px;
-  max-width: 100%;
   transition: 0.9 ease;
 }
 .app:hover{
   opacity: 0.9;
 }
-
-
-
-
-
-
-
-
-
 .find{
   background-color: #F5F8FB;
   width: 100%;
@@ -207,4 +197,25 @@ header {
   opacity: 0.7;
   cursor: pointer;
 }
+.market{
+  background-color: #F5F8FB;
+}
+.engage{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 40px;
+  color: #1e008c; 
+}
+.engage::after{
+  content: "";
+  height: 4px;
+  border-radius: 2px;
+  width: 100px;
+  display: block;
+  background-color: yellow;
+  position: absolute;
+  top: calc(100%, +5px);
+}
+
 
