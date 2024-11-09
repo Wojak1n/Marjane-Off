@@ -26,11 +26,12 @@ header {
     cursor: pointer;
 }
 .search input{
+    border: 1px solid grey;
     border-radius: 20px;
     height: 32px;
     width: 283px;
-    border-color: blue;
-    box-shadow: inset 4px 7px 7px rgba(0, 0, 0, 0.25);
+    border-color: grey;
+    box-shadow: inset 0px 0px 5px 0px rgba(16, 74, 130, 0.2);
 }
 .Sicon{
     top: 4px;
