@@ -5,7 +5,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-header {
+.desktop {
   background-color: white;
   width: 100%;
   position: sticky;
@@ -54,6 +54,69 @@ header {
   position: relative;
   right: 30px;
 }
+/* RESPOMSIVE DYAL HEADER*/
+.mobile {
+  display: none;
+}
+
+@media (max-width:1200px) {
+  .mobile {
+      display: block;
+    }
+    .desktop {
+      display: none;
+    }
+
+}
+    .mobile {
+      background-color: rgb(0, 85, 166);
+      padding: 0px;
+      margin: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPOMSIVE DYAL HEADER*/
 .home{
   display: flex;
   height: 40px;
@@ -294,3 +357,6 @@ header {
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+
+
