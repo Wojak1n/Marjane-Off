@@ -1,10 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
+
 .desktop {
   background-color: white;
   width: 100%;
@@ -18,143 +20,168 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logos {
-    display: flex;
-    margin: 0px;
-    padding-left: 10px;
-    justify-content: flex-start;
-    column-gap: 28px;
-    cursor: pointer;
+  display: flex;
+  margin: 0px;
+  padding-left: 10px;
+  justify-content: flex-start;
+  column-gap: 28px;
+  cursor: pointer;
 }
-.search input{
-    border: 1px solid grey;
-    border-radius: 20px;
-    height: 32px;
-    width: 283px;
-    border-color: grey;
-    box-shadow: inset 0px 0px 5px 0px rgba(16, 74, 130, 0.2);
+.search input {
+  border: 1px solid grey;
+  border-radius: 20px;
+  height: 32px;
+  width: 283px;
+  border-color: grey;
+  box-shadow: inset 0px 0px 5px 0px rgba(16, 74, 130, 0.2);
 }
-.Sicon{
-    top: 4px;
-    left: 10px;
+.Sicon {
+  top: 4px;
+  left: 10px;
 }
-.navigation a{
-    color: grey;
-    text-decoration: none;
-    font-size:  1.1em;
-    font-weight: 500;
-    padding-left: 30px;
+.navigation a {
+  color: grey;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
 }
-.navigation a:hover{
+.navigation a:hover {
   color: blue;
 }
-.marketlogo img{
+.marketlogo img {
   height: 30px;
 }
-.marketlogo{
+.marketlogo {
   position: relative;
   right: 30px;
 }
-/* RESPOMSIVE DYAL HEADER*/
+/* RESPOMSIVE FOR HEADER*/
 .mobile {
   display: none;
 }
-
-@media (max-width:1200px) {
+@media (max-width:1200px){
+  .desktop {
+    display: none;
+  }
   .mobile {
-      display: block;
-    }
-    .desktop {
-      display: none;
-    }
+    display: block;
 
+    width: 100%;
+    height: 90px;
+    margin-bottom: 40px;
+
+  }
+  .hidden {
+    display: none;
+  }
+  .home p {
+    display: none;
+  }
+  .bare1 {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2c4ea9;
+    padding: 30px;
+  }
+  .bare2 {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 15px;
+    gap: 10px;
+    box-shadow: -2px 1px 7px 0px #4b4b4b;
+    margin-bottom: 20px;
+  }
+  .bare2 a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .li11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .li11 img {
+    width: 20px;
+    height: 20px;
+  }
+  .M-search {
+        flex: 3;
+        background: white;
+        display: flex;
+        padding: 6px;
+        border-radius: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+  .M-search input{
+    border: none;
+  }
+  .M-cart, .M-logo {
+    flex: 1;
+  }
+  .M-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
-    .mobile {
-      background-color: rgb(0, 85, 166);
-      padding: 0px;
-      margin: 0px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* RESPOMSIVE DYAL HEADER*/
-.home{
+.home {
   display: flex;
   height: 40px;
   width: 100%;
-  background-color: #F5F8FB;
+  background-color: #f5f8fb;
   color: rgb(9, 5, 137);
   font-size: 20px;
 }
-.home p:hover{
+.home p:hover {
   opacity: 0.7;
   cursor: pointer;
 }
-.home p{
+.home p {
   margin-top: 10px;
   margin-left: 40px;
 }
-.main img{
+.main img {
   height: 100%;
   width: 100%;
   padding: 0px 36px;
   transition: 0.9s ease;
 }
-.main img:hover{
+.main img:hover {
   opacity: 0.8;
 }
-.products{
+.products {
   height: 500px;
   width: 100%;
-  background-color: #F5F8FB;
+  background-color: #f5f8fb;
   color: rgb(9, 5, 137);
 }
-.products h2{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.products h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 40px;
 }
-.products h2::after{
+.products h2::after {
   content: "";
   height: 4px;
   border-radius: 2px;
@@ -164,12 +191,12 @@
   position: absolute;
   top: calc(100%, +5px);
 }
-.offers{
-  display: flex;  
+.offers {
+  display: flex;
   padding: 30px;
   justify-content: center;
 }
-.offers .border{
+.offers .border {
   border: 1px solid;
   height: 300px;
   width: 300px;
@@ -178,100 +205,100 @@
   color: transparent;
   inset: 0px;
 }
-.b1{
-    background-size: contain;
-    background-image: url(offers/arial.jpg);
-    background-repeat: no-repeat;
+.b1 {
+  background-size: contain;
+  background-image: url(offers/arial.jpg);
+  background-repeat: no-repeat;
 }
-.b2{
-    background-size: contain;
-    background-image: url(offers/carte\ noire.jpg);
-    background-repeat: no-repeat;
+.b2 {
+  background-size: contain;
+  background-image: url(offers/carte\ noire.jpg);
+  background-repeat: no-repeat;
 }
-.b3{
-    background-size: contain;
-    background-image: url(offers/dari.jpg);
-    background-repeat: no-repeat;
+.b3 {
+  background-size: contain;
+  background-image: url(offers/dari.jpg);
+  background-repeat: no-repeat;
 }
-.b4{
-    background-size: contain;
-    background-image: url(offers/fromage.jpg);
-    background-repeat: no-repeat;
+.b4 {
+  background-size: contain;
+  background-image: url(offers/fromage.jpg);
+  background-repeat: no-repeat;
 }
-.all{
+.all {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.offer{
-    background-color: #005DAA;
-    color: #fff;
-    padding: 14px 22px 14px 23px;
-    text-transform: uppercase;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600px;
-    height: 50px;
-    border-radius: 20px;
-    width: 400px;
-    transition: 0.7s ease;
-    border: none;
+.offer {
+  background-color: #005daa;
+  color: #fff;
+  padding: 14px 22px 14px 23px;
+  text-transform: uppercase;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600px;
+  height: 50px;
+  border-radius: 20px;
+  width: 400px;
+  transition: 0.7s ease;
+  border: none;
 }
-.offer:hover{
+.offer:hover {
   opacity: 0.8;
-
 }
-.offer a{
+.offer a {
   text-decoration: none;
   color: white;
 }
-.button{
+.button {
   display: flex;
   justify-content: center;
 }
-.Card img{
+.Card img {
   margin-top: 30px;
   width: 100%;
   transition: 0.9s ease;
 }
-.Card img:hover{
+.Card img:hover {
   opacity: 0.8;
 }
-.app{
+.app {
   margin-top: 40px;
   transition: 0.9s ease;
 }
-.app:hover{
+.app:hover {
   opacity: 0.8;
 }
-.find{
-  background-color: #F5F8FB;
+.find {
+  background-color: #f5f8fb;
   width: 100%;
   height: 70px;
   color: #1e008c;
   font-size: 20px;
 }
-.find p{
+.find p {
   padding-top: 20px;
   padding-left: 40px;
 }
-.find p:hover{
+.find p:hover {
   opacity: 0.7;
   cursor: pointer;
 }
-.market{
-  background-color: #F5F8FB;
+.market {
+  background-color: #f5f8fb;
 }
-.engage{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.engage {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 40px;
-  color: #1e008c; 
+  color: #1e008c;
 }
-.engage::after{
+.engage::after {
   content: "";
   height: 4px;
   border-radius: 2px;
@@ -281,34 +308,34 @@
   position: absolute;
   top: calc(100%, +5px);
 }
-.Market{
+.Market {
   width: 100%;
   padding-top: 40px;
   display: flex;
   justify-content: space-around;
   max-height: 100%;
 }
-.Market img{
+.Market img {
   width: 100%;
   border-radius: 50%;
   box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.16);
 }
-.Market a{
+.Market a {
   margin-top: 20px;
   display: flex;
   text-decoration: none;
   justify-content: space-around;
-  font-size:20px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #085da8;
 }
-.mieux{
+.mieux {
   margin-top: 35px;
-  color: #005DAA;
+  color: #005daa;
   font-size: 20px;
   text-decoration: none;
 }
-.info{
+.info {
   margin-top: 40px;
   background-color: #e9f0ff;
   height: 400px;
@@ -316,32 +343,31 @@
   padding: 60px 30px 27px;
   display: flex;
   justify-content: space-around;
-
 }
-.info a{
+.info a {
   text-decoration: none;
-  color: #0b3787;;
+  color: #0b3787;
 }
 .info ul li {
   list-style-type: disc;
-  color: #0b3787;;
+  color: #0b3787;
 }
-.details{
+.details {
   display: flex;
   flex-direction: column;
 }
-.title{
+.title {
   line-height: 46px;
   margin-left: -33px;
   font-weight: 700;
 }
-.store{
+.store {
   padding: 10px;
   margin-top: 50px;
   display: inline;
   transition: 0.9s ease;
 }
-.store img:hover{
+.store img:hover {
   opacity: 0.8;
 }
 .social {
@@ -349,14 +375,10 @@
   display: inline;
   display: flex;
   justify-content: space-around;
-
 }
-.social p{
+.social p {
   margin-top: 10px;
   color: blue;
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
-
-
-

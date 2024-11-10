@@ -4,7 +4,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const prevButton = document.querySelector(".prev");
   const nextButton = document.querySelector(".next");
-  const items = document.querySelectorAll(".cart");
+  const items = document.querySelectorAll(".offers");
   let currentIndex = 0;
 
   // Fonction pour mettre à jour l'affichage du slider
