@@ -382,3 +382,45 @@
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
 }
+
+
+/* respomse dyal footer */
+
+@media (max-width:900px){
+
+  .rightfooter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+  }
+  .maybanoch {
+    display: none;
+  }
+  .title {
+      line-height: 0px;
+      margin-left: 0px; 
+      font-weight: 700;
+  }
+  .info{
+    margin-top: 40px;
+    background-color: #e9f0ff;
+    height: 400px;
+    width: 100%;
+    padding: 60px 30px 27px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .Market div img {
+        width: 80px;
+        height: 80px;
+  }
+    .Market div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .Card {
+    margin-top: 25px;
+  }
+}
