@@ -1,0 +1,199 @@
+.container{
+    position: relative;
+}
+.m{
+    position: relative;
+    background-color: rgb(0, 85, 166);
+    height: 91PX;
+    width: 117PX;
+    TOP: 95px;
+    left: 128px;
+    border-radius: 0px 30px 0px 0PX;
+}
+.x{
+    position: absolute;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    height: 64px;
+    width: 23px;
+    border-radius: 13px 12px 0px 0px;
+    left: 67px;
+    top: 35px;
+}
+.y{
+        position: absolute;
+        background-color: white;
+        height: 64px;
+        width: 23px;
+        border-radius: 13px 13px 0px 0px;
+        left: 25px;
+        top: 35px;
+}
+.z{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 32px;
+    top: -28px;
+}
+.yellow{
+    position: absolute;
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    top: -25px;
+    left: 37px;
+}
+.a{
+    position: relative;
+    background-color: rgb(0, 85, 166);
+    height: 91PX;
+    width: 73PX;
+    TOP: 4px;
+    left: 263px;
+    border-radius: 85px 67px 59px 84px;
+}
+.o{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 41px;
+    width: 35px;
+    left: 23px;
+    border-radius: 50%;
+    top: 26px;
+}
+.b{
+    position: absolute;
+    background-color: rgb(0, 85, 166);
+    height: 86px;
+    width: 27px;
+    left: 68px;
+    top: 3px;
+}
+.r{
+    position: relative;
+    background-color: rgb(0, 85, 166);
+    height: 86px;
+    width: 27px;
+    left: 377px;
+    top: -83px;
+}
+.h{
+    position: absolute;
+    background-color: rgb(0, 85, 166);
+    height: 86px;
+    width: 27px;
+    left: 26px;
+    border-radius: 29px 0px 0px 0px;
+}
+.k{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 63px;
+    width: 35px;
+    top: 24px;
+    left: 26px;
+    border-radius: 27px 0px 0px 0px;
+}
+.j{
+    position: relative;
+    background-color: rgb(0, 85, 166);
+    height: 112px;
+    width: 37px;
+    top: -169px;
+    left: 432px;
+    border-radius: 0PX 0PX 30PX 0PX;
+}
+.i{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 95px;
+    width: 13px;
+    left: -1px;
+    border-radius: 0PX 0PX 16PX 0PX;
+}
+.dwira{
+    position: absolute;
+    background-color: rgb(0, 85, 166);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: -36px;
+    left: 9px;
+}
+.aa{
+    position: relative;
+    background-color: rgb(0, 85, 166);
+    height: 91PX;
+    width: 73PX;
+    TOP: -282px;
+    left: 480px;
+    border-radius: 85px 67px 59px 84px;
+}
+.n{
+    position: relative;
+    background-color: rgb(0, 85, 166);
+    height: 87px;
+    width: 29px;
+    TOP: -370px;
+    left: 583px;
+}
+.d{
+    position: absolute;
+    background-color: rgb(0, 85, 166);
+    height: 87px;
+    width: 61px;
+    left: 28px;
+    border-radius: 30px 30px 0PX 0px;
+}
+.l{
+    position: absolute;
+    background-color: white;
+    height: 55px;
+    width: 32px;
+    left: 31px;
+    top: 33px;
+    border-radius: 30px 29px 0px 0px;
+}
+.e{
+    position: relative;
+    background-color: rgb(0, 85, 166);
+    height: 87px;
+    width: 78px;
+    TOP: -457px;
+    left: 677px;
+    border-radius: 50%;
+}
+.s{
+    position: absolute;
+    background-color: white;
+    height: 17px;
+    width: 36px;
+    border-radius: 41.5px 41.5px 0 0;
+    left: 23px;
+    top: 17px;
+}
+.t{
+    position: absolute;
+    background-color: white;
+    height: 20px;
+    width: 36px;
+    border-radius: 0 0 41.5px 41.5px;
+    top: 49px;
+    left: 22px;
+}
+.f{
+    position: absolute;
+    height : 0;
+    width : 0;
+    border-top: 16px solid white;
+    border-right: 8px solid transparent;
+    border-left: 27px solid transparent;
+    left: 48px;
+    top: 49px;
+}
