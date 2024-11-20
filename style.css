@@ -104,7 +104,7 @@
   .bare2 a {
     text-decoration: none;
     color: grey;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
@@ -175,8 +175,7 @@
   color: rgb(9, 5, 137);
 }
 .products h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 40px;
@@ -291,8 +290,7 @@
   background-color: #f5f8fb;
 }
 .engage {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 40px;
