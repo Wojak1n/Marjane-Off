@@ -7,21 +7,21 @@ document.addEventListener("DOMContentLoaded", function () {
   const items = document.querySelectorAll(".offers");
   let currentIndex = 0;
 
-  // Fonction pour mettre à jour l'affichage du slider
+  // function to update slider display !
   function updateSlider() {
     items.forEach((cartElement) => (cartElement.style.display = "none"));
     items[currentIndex].style.display = "block";
   }
 
-  // Vérifie si l'écran est dans la plage de taille que tu souhaites
+  // verify that screen is correct !
   function isMobile() {
     return window.matchMedia("(max-width: 786px)").matches;
   }
 
-  // Clic sur le bouton précédent
+  // for the previous button !
   prevButton.addEventListener("click", function () {
     if (isMobile()) {
-      // Vérifier si l'écran est petit (mobile)
+      // Verify that we are in mobile screen (mobile)
       if (currentIndex === 0) {
         currentIndex = items.length - 1;
       } else {
@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Clic sur le bouton suivant
+  // for the next button !
   nextButton.addEventListener("click", function () {
     if (isMobile()) {
-      // Vérifier si l'écran est petit (mobile)
+      // Verify that we are in mobile screen again (mobile)
       if (currentIndex === items.length - 1) {
         currentIndex = 0;
       } else {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Initialisation du slider uniquement si l'écran est mobile
+  // Initialize the slider if we are in mobile screen !
   if (isMobile()) {
     updateSlider();
   } else {
