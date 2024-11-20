@@ -6,7 +6,6 @@
   scroll-behavior: smooth;
 }
 
-
 .desktop {
   background-color: white;
   width: 100%;
@@ -60,7 +59,7 @@
 .mobile {
   display: none;
 }
-@media (max-width:1200px){
+@media (max-width: 1200px) {
   .desktop {
     display: none;
   }
@@ -70,7 +69,6 @@
     width: 100%;
     height: 90px;
     margin-bottom: 40px;
-
   }
   .hidden {
     display: none;
@@ -120,22 +118,23 @@
     height: 20px;
   }
   .M-search {
-        flex: 3;
-        background: white;
-        display: flex;
-        padding: 6px;
-        border-radius: 20px;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-  .M-search input{
+    flex: 3;
+    background: white;
+    display: flex;
+    padding: 6px;
+    border-radius: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .M-search input {
     border: none;
   }
-  .M-cart, .M-logo {
+  .M-cart,
+  .M-logo {
     flex: 1;
   }
-  .M-cart{
+  .M-cart {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -175,10 +174,10 @@
   color: rgb(9, 5, 137);
 }
 .products h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   margin-top: 30px;
   margin-left: 40px;
-  font-size: 40px;
+  font-size: 30px;
 }
 .products h2::after {
   content: "";
@@ -290,10 +289,10 @@
   background-color: #f5f8fb;
 }
 .engage {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   margin-top: 30px;
   margin-left: 40px;
-  font-size: 40px;
+  font-size: 30px;
   color: #1e008c;
 }
 .engage::after {
@@ -378,28 +377,26 @@
   margin-top: 10px;
   color: blue;
   font-size: 20px;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
-
 
 /* respomse dyal footer */
 
-@media (max-width:900px){
-
+@media (max-width: 900px) {
   .rightfooter {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
   .maybanoch {
     display: none;
   }
   .title {
-      line-height: 0px;
-      margin-left: 0px; 
-      font-weight: 700;
+    line-height: 0px;
+    margin-left: 0px;
+    font-weight: 700;
   }
-  .info{
+  .info {
     margin-top: 40px;
     background-color: #e9f0ff;
     height: 400px;
@@ -410,13 +407,13 @@
     flex-direction: column;
   }
   .Market div img {
-        width: 80px;
-        height: 80px;
+    width: 80px;
+    height: 80px;
   }
-    .Market div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+  .Market div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .Card {
     margin-top: 25px;
